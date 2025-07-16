@@ -82,11 +82,14 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="animate-fade-in-up">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-[#8CCDEB] to-[#FFE3A9] p-1">
-              <div className="w-full h-full rounded-full bg-[#0B1D51] flex items-center justify-center">
-                <span className="text-4xl font-bold text-white">JD</span>
-              </div>
-            </div>
+           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-[#8CCDEB] to-[#FFE3A9] p-1">
+  <img
+    src="/MY_photo2.png"
+    alt="Rishika Ranjan"
+    className="w-full h-full rounded-full object-cover border-4 border-[#0B1D51]"
+  />
+</div>
+
           </div>
           
           
